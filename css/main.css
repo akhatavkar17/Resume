@@ -1,0 +1,87 @@
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@,300;400;500&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap";
+
+
+.main{
+margin: 6.6vw 9.8vw auto 9.8vw;
+}
+
+body > main {
+font-family: "Open Sans" ;
+font-weight: 400;
+font-size: 1.18vw;
+}
+
+h2 {
+font-family: "Times New Roman";
+height: 1.90vw;
+color: black;
+font-size: 2.3vw;
+}
+
+.skills > li{
+height: 2.6vw;
+}
+
+.skills{
+margin: 0px;
+padding: 0px;
+font-weight: 400;
+font-size: 1.18vw;
+list-style-type: none;
+}
+
+.list-element > p{
+  display: inline;
+}
+
+.list-element{
+  justify-content: space-between;
+}
+
+progress {
+  border-radius: 7px;
+  height: 0.45vw;
+  width: 20vw;
+  margin-bottom: 0.7vw;
+}
+progress::-webkit-progress-bar {
+  background-color: #bdbdbd;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-image: linear-gradient(to right, #707070 , #303030);
+  border-radius: 7px;
+}
+
+.list1 > li{
+  margin-bottom: 0.6vw;
+}
+
+#list2{
+  margin-top: 0.7vw;
+}
+
+.course-name{
+margin: 0px 0px 5px 0px;
+font-weight: bold;
+font-size: 1.18vw;
+}
+
+.time{
+margin: 5px 0px 1.19vw 0px;
+font-size: 1.17vw;
+color: #1f1f1f;
+}
+
+.listings{
+margin: 0px 0px 5px 0px;
+font-weight: bold;
+font-size: 1.18vw;
+}
+
+.work{
+margin: 5px 0px 1.19vw 0px;
+font-size: 1.17vw;
+color: #1f1f1f;
+}
